@@ -1,0 +1,55 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #eee;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+}
+
+#img-div {
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 14px;
+}
+
+#title {
+    text-align: center;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1280px) {
+    #main {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #img-div {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #tribute-info {
+        text-align: left;
+    }
+}
